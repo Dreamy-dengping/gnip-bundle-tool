@@ -1,0 +1,14 @@
+declare const fs: any;
+declare const path: any;
+declare const archiver: any;
+declare const spawn: any;
+declare const chalkUtil: any;
+declare const projectList: any, suffixReg: any, gitProjectMap: any, outputPutDir: any, outputFileName: any, buildName: any, compressType: any, workSpacesPath: any;
+declare function execCommand(command: string, cwd: string): Promise<unknown>;
+declare function copyFile(fileName: string): Promise<void>;
+declare function bundle(fileName: string): Promise<unknown>;
+declare function cloneProject(fileName: string): Promise<void>;
+declare function zipAsset(): Promise<unknown>;
+declare function removeDir(removePath: string): Promise<unknown>;
+declare function start(): Promise<void>;
+declare function testAge(name: string): string;
