@@ -704,6 +704,26 @@ gnip-bundle-tool@^2.0.2, gnip-bundle-tool@^2.0.3:
     webpack "^5.89.0"
     webpack-cli "^5.1.4"
 
+gnip-bundle-tool@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.npmjs.org/gnip-bundle-tool/-/gnip-bundle-tool-2.0.4.tgz#93e844dfd09473080ad1f58fc2adb434bcb7a8f2"
+  integrity sha512-PdjSuEes7jZ0zK7T3MZnHEwqRSwHw6tX+BqwBjmlMIo69Ct7PfFTmC6w8kIAbWZ8ip6Pi/1fyhsSfda+KfwdAA==
+  dependencies:
+    "@types/node" "^20.10.4"
+    archiver "^6.0.1"
+    chalk "^4.1.2"
+    cli-progress "^3.12.0"
+    cli-spinners "^2.9.2"
+    fs-extra "^11.2.0"
+    gnip-bundle-tool "^2.0.3"
+    moment "^2.30.1"
+    nodemon "^3.0.2"
+    ora "5"
+    ts-loader "^9.5.1"
+    typescript "^5.3.3"
+    webpack "^5.89.0"
+    webpack-cli "^5.1.4"
+
 graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, graceful-fs@^4.2.9:
   version "4.2.11"
   resolved "http://nexus.cisdigital.cn/repository/npm/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"

@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "nodemon ./lib/index.js",
     "build:lib": "webpack",
-    "test": "node ./test/index.js",
-    "bundle": "node ./src/index.js"
+    "test": "node ./test.js",
+    "bundle": "node ./index.js"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
     "cli-progress": "^3.12.0",
     "cli-spinners": "^2.9.2",
     "fs-extra": "^11.2.0",
-    "gnip-bundle-tool": "^2.0.3",
+    "gnip-bundle-tool": "^2.0.4",
     "moment": "^2.30.1",
     "nodemon": "^3.0.2",
     "ora": "5",

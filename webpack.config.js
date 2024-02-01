@@ -1,16 +1,18 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./index.js",
   output: {
     path: path.resolve(__dirname, "lib"),
     filename: "index.js",
     clean: true,
-    library: {
-      name: "bundleUtil",
-      type: "commonjs",
-    },
+    libraryTarget: "commonjs",
+    // library: {
+    //   name: "bundleUtil",
+    //   type: "commonjs",
+    // },
   },
+  target: "node",
   module: {
     rules: [
       {
@@ -23,5 +25,5 @@ module.exports = {
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
   },
-  mode: "development",
+  mode: "production",
 };
