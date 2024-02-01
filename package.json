@@ -1,6 +1,6 @@
 {
   "name": "gnip-bundle-tool",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "",
   "main": "index.js",
   "module": "commonjs",
@@ -19,7 +19,8 @@
     "src",
     "types",
     "package.json",
-    "README.md"
+    "README.md",
+    "index.js"
   ],
   "keywords": [
     "bundle",
