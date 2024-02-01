@@ -1,4 +1,4 @@
-const { start } = require("./src/core/core");
+const { start } = require("./src/index");
 
 module.exports = {
   start,

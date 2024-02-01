@@ -1,6 +1,6 @@
 {
   "name": "gnip-bundle-tool",
-  "version": "1.0.5",
+  "version": "2.0.3",
   "description": "",
   "main": "index.js",
   "module": "commonjs",
@@ -17,7 +17,6 @@
   "author": "gnip",
   "files": [
     "src",
-    "test",
     "types",
     "package.json",
     "README.md"
@@ -34,7 +33,8 @@
     "cli-progress": "^3.12.0",
     "cli-spinners": "^2.9.2",
     "fs-extra": "^11.2.0",
-    "gnip-bundle-tool": "^1.0.3",
+    "gnip-bundle-tool": "^2.0.3",
+    "moment": "^2.30.1",
     "nodemon": "^3.0.2",
     "ora": "5",
     "ts-loader": "^9.5.1",
