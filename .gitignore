@@ -1,8 +1,9 @@
 .DS_Store
 node_modules
+test.js
 /dist
 /build
-/test.js
+/outDir
 /workspaces/*
 # local env files
 .env.local
