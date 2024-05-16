@@ -483,7 +483,7 @@ function outputBundleProjectLog() {
 // 检测是否设置node-sass下载源
 function checkIsSetSassMirror() {
   return new Promise<void>(async (resolve) => {
-    const sassBinaryAddress = "https://npm.taobao.org/mirrors/node-sass";
+    const sassBinaryAddress = "http://cdn.npm.taobao.org/dist/node-sass";
     const sassBinarySite: string[] = (await execCommand(
       "npm config get sass_binary_site",
       path.resolve(__dirname)

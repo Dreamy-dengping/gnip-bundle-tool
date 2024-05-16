@@ -1,6 +1,6 @@
 {
   "name": "gnip-bundle-tool",
-  "version": "2.0.7",
+  "version": "2.0.9",
   "description": "",
   "main": "./lib/index.js",
   "module": "commonjs",
